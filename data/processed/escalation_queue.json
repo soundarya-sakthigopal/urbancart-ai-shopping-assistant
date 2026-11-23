@@ -1,0 +1,18 @@
+[
+    {
+        "escalation_id": "0f13fd5d-99de-44ff-9c52-c418dfb88732",
+        "customer_query": "I have contacted support multiple times about my delayed order.",
+        "reason": "Customer has repeatedly reached out regarding a delayed order and requires human assistance.",
+        "conversation_summary": "Customer is experiencing delays with their order and has contacted support multiple times without resolution.",
+        "status": "Pending",
+        "created_at": "2026-11-22T15:15:35"
+    },
+    {
+        "escalation_id": "9d21a7bc-2a53-435b-b627-2b06a6f7fb51",
+        "customer_query": "I received a damaged product.",
+        "reason": "Customer received a damaged product and needs assistance.",
+        "conversation_summary": "Customer reported receiving a damaged product and requested escalation to customer support.",
+        "status": "Pending",
+        "created_at": "2026-11-23T16:12:48"
+    }
+]

@@ -1,0 +1,6 @@
+order_id,status,expected_delivery_date,last_updated
+ORD1001,Shipped,2026-11-24,2026-11-21
+ORD1002,Processing,2026-11-26,2026-11-22
+ORD1003,Delivered,2026-11-20,2026-11-20
+ORD1004,Out for Delivery,2026-11-22,2026-11-22
+ORD1005,Cancelled,,2026-11-21

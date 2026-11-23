@@ -1,0 +1,29 @@
+[
+    {
+        "id": "GQ001",
+        "question": "What is the return window for a cotton kurti?",
+        "actual_answer": "Cotton kurtis are returnable within 14 days of delivery, provided the tags are intact and they are unworn.",
+        "expected_answer": "Apparel and footwear can be returned within 14 days of delivery if tags are intact and the item is unworn.",
+        "retrieved_sources": [
+            "return_refund_policy.txt, Section 1.1"
+        ],
+        "confidence_level": "High",
+        "metrics": {
+            "faithfulness": {
+                "score": 1.0,
+                "passed": true,
+                "reason": "The score is 1.00 because there are no contradictions, so the actual output appears fully consistent with the retrieval context—great job staying faithful to the source."
+            },
+            "answer_relevancy": {
+                "score": 1.0,
+                "passed": true,
+                "reason": "The score is 1.00 because the response directly addresses the return window for a cotton kurti with no irrelevant information—clear, focused, and fully on topic."
+            },
+            "answer_correctness": {
+                "score": 1.0,
+                "passed": true,
+                "reason": "The response directly answers the return-window question for a cotton kurti and matches the expected policy details: a 14-day return period from delivery, with tags intact and the item unworn. Although it mentions 'cotton kurtis' specifically instead of the broader 'apparel and footwear' category, that is appropriately scoped to the input and does not conflict with the expected output."
+            }
+        }
+    }
+]

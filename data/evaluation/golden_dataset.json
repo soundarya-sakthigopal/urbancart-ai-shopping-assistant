@@ -1,0 +1,163 @@
+
+[
+  {
+    "id": "GQ001",
+    "category": "return_policy",
+    "question": "What is the return window for a cotton kurti?",
+    "expected_answer": "Apparel and footwear can be returned within 14 days of delivery if tags are intact and the item is unworn.",
+    "expected_source": "return_refund_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ002",
+    "category": "return_policy",
+    "question": "What is the return window for a smartwatch?",
+    "expected_answer": "Electronics can be returned within 7 days of delivery with original packaging and accessories.",
+    "expected_source": "return_refund_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ003",
+    "category": "refund_policy",
+    "question": "How long does a COD refund take?",
+    "expected_answer": "COD refunds are processed within 7 to 10 business days.",
+    "expected_source": "return_refund_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ004",
+    "category": "refund_policy",
+    "question": "When is a prepaid refund initiated?",
+    "expected_answer": "The refund is initiated within 24 hours after the returned item passes quality control.",
+    "expected_source": "return_refund_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ005",
+    "category": "shipping_policy",
+    "question": "What is the standard delivery time for metro cities?",
+    "expected_answer": "Metro cities generally receive orders within 2 to 4 business days.",
+    "expected_source": "shipping_delivery_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ006",
+    "category": "shipping_policy",
+    "question": "Is shipping free for orders above Rs 499?",
+    "expected_answer": "Standard shipping is free for orders above Rs 499.",
+    "expected_source": "shipping_delivery_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ007",
+    "category": "shipping_policy",
+    "question": "When can I get a refund for an undelivered order?",
+    "expected_answer": "Orders not delivered within 15 days of purchase are eligible for a full refund.",
+    "expected_source": "shipping_delivery_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ008",
+    "category": "payment_policy",
+    "question": "What is the maximum order value for cash on delivery?",
+    "expected_answer": "COD is available for orders up to Rs 20,000, subject to serviceability and product restrictions.",
+    "expected_source": "payment_cod_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ009",
+    "category": "payment_policy",
+    "question": "My money was debited but my order was not confirmed. What happens?",
+    "expected_answer": "The payment is automatically refunded within 5 to 7 business days.",
+    "expected_source": "payment_cod_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ010",
+    "category": "warranty_policy",
+    "question": "What is the warranty period for electronics?",
+    "expected_answer": "Electronics have a manufacturer warranty ranging from 6 to 24 months.",
+    "expected_source": "warranty_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ011",
+    "category": "warranty_policy",
+    "question": "Does the warranty cover liquid damage?",
+    "expected_answer": "No. The warranty covers manufacturing defects, not physical or liquid damage.",
+    "expected_source": "warranty_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ012",
+    "category": "inventory_tool",
+    "question": "Check stock for SKU UC-ELE-916693.",
+    "expected_answer": "Wireless Mouse is in stock with 283 units available.",
+    "expected_source": "inventory_tool",
+    "expected_tool": "check_product_stock"
+  },
+  {
+    "id": "GQ013",
+    "category": "order_tool",
+    "question": "What is the status of order ORD1001?",
+    "expected_answer": "Order ORD1001 is shipped and expected to be delivered on 2026-11-24.",
+    "expected_source": "order_tool",
+    "expected_tool": "track_customer_order"
+  },
+  {
+    "id": "GQ014",
+    "category": "unanswerable",
+    "question": "Does UrbanCart provide lifetime free replacement for every product?",
+    "expected_answer": "The available catalogue and policy documents do not provide this information.",
+    "expected_source": null,
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ015",
+    "category": "unanswerable",
+    "question": "Can I return a product after 90 days?",
+    "expected_answer": "The available policy does not establish a general 90-day return option.",
+    "expected_source": null,
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ016",
+    "category": "hinglish",
+    "question": "Mera smartwatch kitne din ke andar return ho sakta hai?",
+    "expected_answer": "Smartwatch electronics category mein aata hai. Isse delivery ke 7 din ke andar original packaging aur accessories ke saath return kar sakte hain.",
+    "expected_source": "return_refund_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ017",
+    "category": "return_policy",
+    "question": "Can I return opened cosmetics?",
+    "expected_answer": "Beauty and personal care products are non-returnable once their seal is opened.",
+    "expected_source": "return_refund_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ018",
+    "category": "return_policy",
+    "question": "Can I exchange footwear for another size?",
+    "expected_answer": "Free size exchanges for apparel and footwear are available within 14 days, subject to stock availability.",
+    "expected_source": "return_refund_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ019",
+    "category": "shipping_policy",
+    "question": "How long does delivery take for remote or rural locations?",
+    "expected_answer": "Remote and rural locations generally receive orders within 7 to 10 business days.",
+    "expected_source": "shipping_delivery_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  },
+  {
+    "id": "GQ020",
+    "category": "payment_policy",
+    "question": "Is EMI available for purchases above Rs 3000?",
+    "expected_answer": "EMI is available for purchases above Rs 3000 through selected banks.",
+    "expected_source": "payment_cod_policy.txt",
+    "expected_tool": "search_catalog_and_policies"
+  }
+]

@@ -1,0 +1,300 @@
+{
+    "total_dataset_questions": 20,
+    "evaluated_rag_questions": 16,
+    "top_k": 5,
+    "summary": {
+        "average_recall_at_5": 1.0,
+        "average_mrr": 0.90625,
+        "average_ndcg": 0.9307993287946483
+    },
+    "results": [
+        {
+            "id": "GQ001",
+            "category": "return_policy",
+            "question": "What is the return window for a cotton kurti?",
+            "expected_sources": [
+                "return_refund_policy.txt"
+            ],
+            "retrieved_sources": [
+                "return_refund_policy.txt",
+                "return_refund_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ002",
+            "category": "return_policy",
+            "question": "What is the return window for a smartwatch?",
+            "expected_sources": [
+                "return_refund_policy.txt"
+            ],
+            "retrieved_sources": [
+                "return_refund_policy.txt",
+                "return_refund_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ003",
+            "category": "refund_policy",
+            "question": "How long does a COD refund take?",
+            "expected_sources": [
+                "return_refund_policy.txt"
+            ],
+            "retrieved_sources": [
+                "return_refund_policy.txt",
+                "payment_cod_policy.txt",
+                "return_refund_policy.txt",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ004",
+            "category": "refund_policy",
+            "question": "When is a prepaid refund initiated?",
+            "expected_sources": [
+                "return_refund_policy.txt"
+            ],
+            "retrieved_sources": [
+                "return_refund_policy.txt",
+                "return_refund_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ005",
+            "category": "shipping_policy",
+            "question": "What is the standard delivery time for metro cities?",
+            "expected_sources": [
+                "shipping_delivery_policy.txt"
+            ],
+            "retrieved_sources": [
+                "shipping_delivery_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ006",
+            "category": "shipping_policy",
+            "question": "Is shipping free for orders above Rs 499?",
+            "expected_sources": [
+                "shipping_delivery_policy.txt"
+            ],
+            "retrieved_sources": [
+                "shipping_delivery_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ007",
+            "category": "shipping_policy",
+            "question": "When can I get a refund for an undelivered order?",
+            "expected_sources": [
+                "shipping_delivery_policy.txt"
+            ],
+            "retrieved_sources": [
+                "return_refund_policy.txt",
+                "shipping_delivery_policy.txt",
+                "return_refund_policy.txt",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 0.5,
+            "ndcg": 0.6309297535714575
+        },
+        {
+            "id": "GQ008",
+            "category": "payment_policy",
+            "question": "What is the maximum order value for cash on delivery?",
+            "expected_sources": [
+                "payment_cod_policy.txt"
+            ],
+            "retrieved_sources": [
+                "shipping_delivery_policy.txt",
+                "payment_cod_policy.txt",
+                "payment_cod_policy.txt",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 0.5,
+            "ndcg": 0.6309297535714575
+        },
+        {
+            "id": "GQ009",
+            "category": "payment_policy",
+            "question": "My money was debited but my order was not confirmed. What happens?",
+            "expected_sources": [
+                "payment_cod_policy.txt"
+            ],
+            "retrieved_sources": [
+                "payment_cod_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue",
+                "payment_cod_policy.txt"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ010",
+            "category": "warranty_policy",
+            "question": "What is the warranty period for electronics?",
+            "expected_sources": [
+                "warranty_policy.txt"
+            ],
+            "retrieved_sources": [
+                "warranty_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ011",
+            "category": "warranty_policy",
+            "question": "Does the warranty cover liquid damage?",
+            "expected_sources": [
+                "warranty_policy.txt"
+            ],
+            "retrieved_sources": [
+                "warranty_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ016",
+            "category": "hinglish",
+            "question": "Mera smartwatch kitne din ke andar return ho sakta hai?",
+            "expected_sources": [
+                "return_refund_policy.txt"
+            ],
+            "retrieved_sources": [
+                "return_refund_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ017",
+            "category": "return_policy",
+            "question": "Can I return opened cosmetics?",
+            "expected_sources": [
+                "return_refund_policy.txt"
+            ],
+            "retrieved_sources": [
+                "return_refund_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ018",
+            "category": "return_policy",
+            "question": "Can I exchange footwear for another size?",
+            "expected_sources": [
+                "return_refund_policy.txt"
+            ],
+            "retrieved_sources": [
+                "return_refund_policy.txt",
+                "return_refund_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ019",
+            "category": "shipping_policy",
+            "question": "How long does delivery take for remote or rural locations?",
+            "expected_sources": [
+                "shipping_delivery_policy.txt"
+            ],
+            "retrieved_sources": [
+                "shipping_delivery_policy.txt",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 1.0,
+            "ndcg": 1.0
+        },
+        {
+            "id": "GQ020",
+            "category": "payment_policy",
+            "question": "Is EMI available for purchases above Rs 3000?",
+            "expected_sources": [
+                "payment_cod_policy.txt"
+            ],
+            "retrieved_sources": [
+                "product_catalogue",
+                "payment_cod_policy.txt",
+                "product_catalogue",
+                "shipping_delivery_policy.txt",
+                "product_catalogue"
+            ],
+            "recall_at_5": 1.0,
+            "mrr": 0.5,
+            "ndcg": 0.6309297535714575
+        }
+    ]
+}

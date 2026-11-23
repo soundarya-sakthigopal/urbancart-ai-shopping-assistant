@@ -1,0 +1,16 @@
+streamlit
+openai
+python-dotenv
+pandas
+langchain-core
+langchain-text-splitters
+langchain-openai
+langchain-chroma
+rank-bm25
+langchain-community
+pytest
+deepeval
+langsmith
+fastapi 
+uvicorn
+requests
